@@ -48,13 +48,14 @@ This system aims to democratize learning by creating customized educational cont
 User Query --> NLP Module --> Knowledge Graph Query --> Script Generation (LLM) --> Slide Generation --> Manim Animation --> Video Compilation --> Output Delivery
 
 ## Folder Structure
+---
 prototype/
 ├── manim_renderer.py
 ├── script_generator.py
 ├── main.py
 ├── requirements.txt
 └── .env
-
+---
 
 
 
