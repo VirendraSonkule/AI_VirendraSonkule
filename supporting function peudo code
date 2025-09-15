@@ -1,0 +1,41 @@
+def nlp_understand(query: str) -> (str, str):
+    # Use an NLP pipeline + LLM to extract the main concept and domain
+    # e.g. input: "Explain Binary Search Trees in Data Structures"
+    # output: ("Binary Search Tree", "Data Structures")
+    pass
+
+def knowledge_graph_query(concept: str, domain: str) -> dict:
+    # Query a knowledge graph to fetch definitions, relationships, examples
+    # Returns structured data useful for script generation
+    pass
+
+def generate_script(concept: str, data: dict) -> str:
+    # Use prompt-engineered LLM to generate detailed educational script
+    # Includes intro, examples, explanation, summary
+    pass
+
+def script_to_slides(script: str) -> List[Slide]:
+    # Parse script into slide objects
+    # Each slide has: title, bullet points, visuals metadata
+    pass
+
+def generate_manim_code(slide: Slide) -> str:
+    # Generate python code to create a Manim scene for the slide
+    # Use text, formulas, and simple animations as needed
+    pass
+
+def render_manim(manim_code: str) -> VideoClip:
+    # Render Manim scene to video clip
+    pass
+
+def generate_tts(script: str) -> AudioClip:
+    # Convert script to voiceover audio using TTS service
+    pass
+
+def compile_video(clips: List[VideoClip], audio: AudioClip) -> VideoFile:
+    # Combine video clips and audio into a single video file
+    pass
+
+def deliver_output(video: VideoFile):
+    # Send video file to user via download or streaming link
+    pass
