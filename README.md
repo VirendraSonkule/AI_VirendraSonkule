@@ -49,7 +49,7 @@ User Query --> NLP Module --> Knowledge Graph Query --> Script Generation (LLM) 
 
 
 
-Extending the System
+## Extending the System
 
 Add new domains: Populate the knowledge graph with books/data for new fields.
 
@@ -97,7 +97,7 @@ Running the Web Application
 Start the Streamlit or Flask web app:
 
 streamlit run webapp/app.py
-# or
+ or
 python webapp/app.py
 
 ## Querying Concepts
