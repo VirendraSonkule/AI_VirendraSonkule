@@ -62,3 +62,73 @@ Add voiceovers: Integrate TTS services for natural-sounding narration.
 Deploy at scale: Use Kubernetes/Docker for scalable, multi-user access.
 
 
+Installation
+Prerequisites
+
+Python 3.9 or higher
+
+Manim Community Edition installed (Installation Guide
+)
+
+OpenAI API Key (or equivalent LLM API)
+
+FFmpeg installed (for video compilation)
+
+(Optional) Docker
+
+Clone the repository
+git clone https://github.com/yourusername/Educational-Video-Automation.git
+cd Educational-Video-Automation
+
+Install dependencies
+pip install -r requirements.txt
+
+Set environment variables
+
+Create a .env file in the root directory:
+
+OPENAI_API_KEY=your_openai_api_key_here
+TTS_API_KEY=your_tts_api_key_here  # if using TTS service
+
+Usage
+Running the Web Application
+
+Start the Streamlit or Flask web app:
+
+streamlit run webapp/app.py
+# or
+python webapp/app.py
+
+Querying Concepts
+
+Enter your educational query in the web interface, such as:
+
+"Explain Binary Search Trees in Data Structures"
+
+"What is Geographic Information System (GIS)?"
+
+"Describe orbital mechanics in Space Technology"
+
+The system will generate and display an animated educational video explaining the concept.
+
+CLI (Prototype)
+
+Alternatively, run the prototype CLI:
+
+python main.py
+
+
+Enter the concept, and the system will:
+
+Generate a detailed script using GPT-4
+
+Convert it into slides
+
+Render Manim animations
+
+Produce a video output
+
+
+License
+
+This project is licensed under the MIT License
