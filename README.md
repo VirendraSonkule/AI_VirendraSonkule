@@ -44,7 +44,7 @@ This system aims to democratize learning by creating customized educational cont
 
 ## Architecture Overview
 
-```plaintext
+
 User Query --> NLP Module --> Knowledge Graph Query --> Script Generation (LLM) --> Slide Generation --> Manim Animation --> Video Compilation --> Output Delivery
 
 
