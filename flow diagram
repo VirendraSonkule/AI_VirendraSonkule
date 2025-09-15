@@ -1,0 +1,45 @@
+            +---------------------+
+            |    Student Query    |
+            +----------+----------+
+                       |
+                       v
+        +--------------+---------------+
+        |  NLP Query Understanding      |
+        |  (Entity Recognition, Intent)|
+        +--------------+---------------+
+                       |
+                       v
+        +--------------+---------------+
+        | Knowledge Graph Query Engine |
+        |  (Concept Retrieval from KG) |
+        +--------------+---------------+
+                       |
+                       v
+     +-----------------+-------------------+
+     |     Script Generator (LLM)          |
+     |  (Prompt-engineered storyboards)    |
+     +-----------------+-------------------+
+                       |
+                       v
+         +-------------+--------------+
+         |  Slide & Scene Generator   |
+         |   (Scene text, assets)     |
+         +-------------+--------------+
+                       |
+                       v
+         +-------------+--------------+
+         |  Manim Renderer Engine     |
+         |   (Generate animations)    |
+         +-------------+--------------+
+                       |
+                       v
+         +-------------+--------------+
+         |     Video Compiler         |
+         | (Voiceover, BG music, etc) |
+         +-------------+--------------+
+                       |
+                       v
+               +-------+--------+
+               |     Output     |
+               |  Animated Video|
+               +----------------+
