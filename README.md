@@ -62,8 +62,9 @@ Add voiceovers: Integrate TTS services for natural-sounding narration.
 Deploy at scale: Use Kubernetes/Docker for scalable, multi-user access.
 
 
-Installation
-Prerequisites
+## Installation
+
+## Prerequisites
 
 Python 3.9 or higher
 
@@ -76,21 +77,21 @@ FFmpeg installed (for video compilation)
 
 (Optional) Docker
 
-Clone the repository
+## Clone the repository
 git clone https://github.com/yourusername/Educational-Video-Automation.git
 cd Educational-Video-Automation
 
-Install dependencies
+## Install dependencies
 pip install -r requirements.txt
 
-Set environment variables
+## Set environment variables
 
 Create a .env file in the root directory:
 
 OPENAI_API_KEY=your_openai_api_key_here
 TTS_API_KEY=your_tts_api_key_here  # if using TTS service
 
-Usage
+## Usage
 Running the Web Application
 
 Start the Streamlit or Flask web app:
@@ -99,7 +100,7 @@ streamlit run webapp/app.py
 # or
 python webapp/app.py
 
-Querying Concepts
+## Querying Concepts
 
 Enter your educational query in the web interface, such as:
 
@@ -129,6 +130,6 @@ Render Manim animations
 Produce a video output
 
 
-License
+## License
 
 This project is licensed under the MIT License
