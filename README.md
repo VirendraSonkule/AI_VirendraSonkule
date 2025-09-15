@@ -60,3 +60,5 @@ Enhance animations: Create domain-specific Manim templates with rich visuals.
 Add voiceovers: Integrate TTS services for natural-sounding narration.
 
 Deploy at scale: Use Kubernetes/Docker for scalable, multi-user access.
+
+
