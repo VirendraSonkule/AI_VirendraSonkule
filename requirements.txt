@@ -1,0 +1,3 @@
+openai
+manim
+python-dotenv
