@@ -49,12 +49,13 @@ User Query --> NLP Module --> Knowledge Graph Query --> Script Generation (LLM) 
 
 ## Folder Structure
 
-prototype
-├── manim_renderer.py
-├── script_generator.py
-├── main.py
-├── requirements.txt
-└── .env
+| File Name             | Description                                                                 |
+|-----------------------|-----------------------------------------------------------------------------|
+| `manim_renderer.py`    | Contains the code to render animations using the Manim animation engine.     |
+| `script_generator.py`  | Handles the generation of educational scripts using OpenAI or similar LLMs. |
+| `main.py`              | The main orchestrator file that runs the pipeline: from input to video.      |
+| `requirements.txt`     | Lists the required Python dependencies for the project.                     |
+| `.env`                 | Stores environment variables such as the OpenAI API key and other secrets.  |
 
 
 
